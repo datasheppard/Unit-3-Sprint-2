@@ -130,9 +130,19 @@ interview screening questions (a form you fill when applying for a job):
 
 - In the Northwind database, what is the type of relationship between the
   `Employee` and `Territory` tables?
+  
+  It is considered a 1 to many relationship. Employes aare indevidualized by their ID. 
+  Since the employee can have multiply territories, it is categorized as such.
+  
 - What is a situation where a document store (like MongoDB) is appropriate, and
   what is a situation where it is not appropriate?
+  
+  MogoDB is for heavy calling like a social network or cloud. Mongo DB would not be good 
+  in a situation loike wiring money where an ACID would be appropreate.
+  
 - What is "NewSQL", and what is it trying to achieve?
+
+larger scalability at lower feature developement costs
 
 ### Part 5 - Turn it in!
 Add all the files you wrote (`demo_data.py`, `northwind.py`), as well as this
